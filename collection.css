@@ -1,0 +1,384 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.home li{    color: #000000;
+    text-decoration: underline;}
+
+body{
+    background: #f8f8f8;
+}
+
+
+.pt1{
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.lateral{
+  font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    position: sticky;
+    top: 0;
+    width: 22%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 40px;
+    width: 43vh;
+    z-index: 10;
+}
+
+
+.tplateral{
+  font-family: 'Montserrat', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#coleDiv {
+    width: 100%;
+}
+
+.linhaCole {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.linhaCole>div {
+    position: relative;
+    width: 30%;
+    height: 25vh;
+    margin-top: 25px;
+}
+
+.linhaCole img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.linhaCole img:hover{filter: brightness(0.5);}
+
+
+.linhaCole>div>div {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.linhaCole>div>div>p {
+    margin-top: 15px;
+}
+
+
+.lou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.imagemlou{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("https://preview.colorlib.com/theme/louie/images/author.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.lou h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.home{
+    margin-top: 45px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.home a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+ 
+.H a{
+    color: #000000;
+    text-decoration: underline;
+}
+ 
+ 
+.txt{
+    text-align: center;
+    width: 100%;
+}
+ 
+.txt h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000;
+}
+ 
+.Newsletter{
+  font-family: 'Montserrat', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+}
+ 
+.Newsletter input{
+  font-family: 'Montserrat', Arial, sans-serif;
+    width: 75%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    font-size: 13px;
+}
+ 
+.Newsletter button{
+    width: 45px;
+    border: 1px solid #e0e0e0;
+    border-left: #00000000;
+    outline: none;
+    background: white;
+    cursor: pointer;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.Newsletter button i{
+    color: #888;
+}
+
+.my{
+    background-color: #ccb78f;
+    height: 200px;
+    width: 200%;
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+
+.tituloHeader {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: black;
+}
+.linha1{display: flex;
+flex-direction: row;
+gap: 20px;
+width: 70%;
+height: 10vh;
+}
+
+.linha2{display: flex;
+    flex-direction: row;
+    gap: 20px;
+    }
+
+    .linha3{display: flex;
+        flex-direction: row;
+        gap: 20px;
+        }
+
+        .linha4{display: flex;
+            flex-direction: row;
+            gap: 20px;
+            }
+section{width: 78%;
+height: 100vh;}
+
+.footer {
+        background: #222;
+        color: white;
+        padding: 90px 0 40px 0;
+        margin-top: 400px;
+      }
+      
+      
+      .footer2 {
+        width: 75%;
+        margin: auto;
+      
+      
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+      }
+      
+      
+      .footerft{
+        flex: 1;
+      }
+      
+      
+      .footer-ft h3 {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 35px;
+      }
+      
+      
+      .fotos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        width: calc(75px * 3 + 12px * 2);
+      }
+      
+      
+      .foto1{
+        width: 75px;
+        height: 75px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        background-image: url("https://preview.colorlib.com/theme/louie/images/image_1.jpg");
+      }
+      
+      
+      .foto2{
+        width: 75px;
+        height: 75px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        background-image: url("image_2.jpg");
+      }
+      
+      
+      .foto3{
+        width: 75px;
+        height: 75px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        background-image: url("image_3.jpg");
+      }
+      
+      
+      .foto4{
+        width: 75px;
+        height: 75px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        background-image: url("image_4.jpg");
+      }
+      
+      
+      .foto5{
+        width: 75px;
+        height: 75px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        background-image: url("image_5.jpg");
+      }
+      
+      
+      .foto6{
+        width: 75px;
+        height: 75px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        background-image: url("image_6.jpg") ;
+      }
+      
+      
+      .archives {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+      }
+      .archives li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+      
+        padding: 14px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.15);
+      
+      
+        font-size: 14px;
+        color: #bbb;
+      }
+      
+      
+      .archives li span:last-child {
+        color: white;
+      }
+      
+      
+      .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+      
+      
+      .info {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 15px;
+      }
+      
+      
+      .info i {
+        font-size: 14px;
+        color: white;
+        margin-top: 4px;
+        flex-shrink: 0;
+      }
+      
+      
+      .info p {
+        font-size: 14px;
+        color: #bbb;
+        line-height: 1.6;
+      }
+      
+      
+      
+      
+      .copy {
+        width: 75%;
+        margin: auto;
+        margin-top: 60px;
+        font-size: 13px;
+        color: #888;
+      }
+      

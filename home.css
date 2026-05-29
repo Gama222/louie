@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background: #f8f8f8;
+}
+
+
+.pt1{
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.lateral{
+  font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 40px;
+    width: 43vh;
+    z-index: 10;
+}
+
+
+.tplateral{
+  font-family: 'Montserrat', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.imagemlou{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("https://preview.colorlib.com/theme/louie/images/author.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.lou h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.home{
+    margin-top: 45px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.home a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+ 
+.H a{
+    color: #000000;
+    text-decoration: underline;
+}
+ 
+ 
+.txt{
+    text-align: center;
+    width: 100%;
+}
+ 
+.txt h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000;
+}
+ 
+.Newsletter{
+  font-family: 'Montserrat', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+}
+ 
+.Newsletter input{
+  font-family: 'Montserrat', Arial, sans-serif;
+    width: 75%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    font-size: 13px;
+}
+ 
+.Newsletter button{
+    width: 45px;
+    border: 1px solid #e0e0e0;
+    border-left: #00000000;
+    outline: none;
+    background: white;
+    cursor: pointer;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.Newsletter button i{
+    color: #888;
+}
+
+
+.menu{
+  flex: 1;
+  background: #f8f8f8;
+}
+
+
+
+
+.louie{
+  display: flex;
+  height: 100vh;
+}
+
+
+
+
+.louieimg2{
+  flex: 2;
+  background-image: url("https://preview.colorlib.com/theme/louie/images/author-2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: -10vh;
+  z-index: 9;
+}
+
+
+.louieinfo{
+  flex: 1;
+  background: #f8f8f8;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  padding: 60px;
+}
+
+
+
+
+.louisetxt{
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+.hello{
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  color: #888;
+  font-weight: 500;
+}
+
+
+
+
+.nome{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: -45px;
+  left: -10px;
+
+
+  font-size: 70px;
+  font-weight: 800;
+  color: rgba(0,0,0,0.06);
+
+
+  z-index: 0;
+}
+
+
+
+
+.titulo{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  z-index: 2;
+  position: relative;
+}
+
+
+.title .cor1{
+  color: #000;
+}
+
+
+.title .cor2{
+  color: #c8a97e;
+}
+
+
+
+
+.louisetxt p{
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #777;
+  max-width: 420px;
+
+
+}
+
+
+
+
+.assinatura{
+  font-family: "Herr Von Muellerhoff", cursive;
+  margin-top: 25px;
+  font-size: 45px;
+  font-weight: 400;
+  color: #000;
+}
+
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+
+
+
+.redes a{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid #e5e5e5;
+
+
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+
+
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+.redes a i{
+  color: #000;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.instagram {
+  background: #fff;
+  padding: 90px 0;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.instagram h2 {
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 45px;
+}
+
+
+.insta {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.instaimg1 {
+  flex: 1;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  background-image: url("https://preview.colorlib.com/theme/louie/images/image_1.jpg");
+}
+
+
+.instahover:hover {
+  filter: brightness(70%);
+}
+
+
+.instaimg2 {
+  flex: 1;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  background-image: url("image_2.jpg");
+}
+
+
+
+
+.instaimg3 {
+  flex: 1;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  background-image: url("image_3.jpg");
+}
+
+
+
+
+.instaimg4 {
+  flex: 1;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  background-image: url("image_4.jpg");
+}
+
+
+
+
+.instaimg5 {
+  flex: 1;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  background-image: url("image_5.jpg");
+}
+
+
+.footer {
+  background: #222;
+  color: white;
+  padding: 90px 0 40px 0;
+}
+
+
+.footer2 {
+  width: 75%;
+  margin: auto;
+
+
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+.footerft{
+  flex: 1;
+}
+
+
+.footer-ft h3 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  width: calc(75px * 3 + 12px * 2);
+}
+
+
+.foto1{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("https://preview.colorlib.com/theme/louie/images/image_1.jpg");
+}
+
+
+.foto2{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_2.jpg");
+}
+
+
+.foto3{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_3.jpg");
+}
+
+
+.foto4{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_4.jpg");
+}
+
+
+.foto5{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_5.jpg");
+}
+
+
+.foto6{
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  background-image: url("image_6.jpg") ;
+}
+
+
+.archives {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.archives li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+
+
+  font-size: 14px;
+  color: #bbb;
+}
+
+
+.archives li span:last-child {
+  color: white;
+}
+
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+
+.info i {
+  font-size: 14px;
+  color: white;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+
+.info p {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+
+
+
+.copy {
+  width: 75%;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 13px;
+  color: #888;
+}
